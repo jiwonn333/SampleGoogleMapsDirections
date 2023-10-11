@@ -34,8 +34,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(R.layout.activity_maps)
 
         // Setting start/end address
-        startLatLng = LatLng(35.581065044288174, 136.6762702161299) // start address
-        endLatLng = LatLng(35.80177861620035, 136.7300097518705) // end address
+        startLatLng = LatLng(34.590722713364066, 135.42871399222676) // start address
+        endLatLng = LatLng(34.52642424608713, 135.5589717251484) // end address
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
